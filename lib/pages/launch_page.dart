@@ -1,7 +1,5 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:service_manager/service_manager.dart';
+import 'package:egg_manager/service_manager.dart';
 
 class Launcher extends StatelessWidget{
   @override

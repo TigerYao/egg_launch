@@ -1,4 +1,6 @@
-class MobileInfoEntity{
+import 'package:egg_manager/core/base_model.dart';
+
+class MobileInfoEntity extends BaseMode{
   String os;
   String os_version;
   String app_version;

@@ -78,9 +78,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ElevatedButton(onPressed: (){
               utils.updateMobileInfo((data){
-
+                print("..dd..${data.toString()}");
               }, (e){
-
+                print("..err....${e.toString()}");
               });
             }, child: Text("上传"))
           ],

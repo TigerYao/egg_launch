@@ -16,8 +16,8 @@ dependencies:
   connectivity: ^3.0.6
   r_get_ip: ^0.1.0
   package_info: 2.0.2
-  service_manager:
-    path: ../service_manager
+  egg_manager:
+    path: ../egg_manager
 
 dev_dependencies:
   flutter_test:

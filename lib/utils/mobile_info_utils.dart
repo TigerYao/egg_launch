@@ -7,7 +7,7 @@ import 'package:device_info/device_info.dart';
 import 'package:launch/model/mobile_info_entity.dart';
 import 'package:package_info/package_info.dart';
 import 'package:r_get_ip/r_get_ip.dart';
-import 'package:service_manager/core/service_manager.dart';
+import 'package:egg_manager/core/service_manager.dart';
 
 class MobleInfoUtils {
   /// Returns [value] plus 1.
@@ -43,7 +43,7 @@ class MobleInfoUtils {
 
   void updateMobileInfo(Function success,Function err)async{
     MobileInfoEntity infoEntity = await getMobileInfoEntity();
-    ServiceManager().provider.getData("T0296AG9SDT/B029GJCFPKQ/YPh9xGTQ9YOa7RBkXuJlh3JD", {'text':json.encode(infoEntity)},success: success,fail: err);
+    ServiceManager().provider.getData<String>("T0296AG9SDT/B029GJCFPKQ/YPh9xGTQ9YOa7RBkXuJlh3JD", infoEntity,success: success,fail: err);
   }
 
   Map<String, dynamic> _readAndroidBuildData(AndroidDeviceInfo build) {
