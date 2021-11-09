@@ -17,7 +17,7 @@ dependencies:
   r_get_ip: ^0.1.0
   package_info: 2.0.2
   egg_manager:
-    path: ../egg_manager
+    git: "https://github.com/TigerYao/egg_manager.git"
 
 dev_dependencies:
   flutter_test:
