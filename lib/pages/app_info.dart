@@ -26,8 +26,8 @@ class MyHomePage extends StatefulWidget {
 // }
 //
 class _MyHomePageState extends State<MyHomePage> {
-  MobileInfoEntity entity;
-  MobleInfoUtils utils;
+  late MobileInfoEntity entity;
+  late MobleInfoUtils utils;
   @override
   void initState() {
     // TODO: implement initState

@@ -1,15 +1,14 @@
 import 'package:egg_manager/core/base_model.dart';
 
 class MobileInfoEntity extends BaseMode{
-  String os;
-  String os_version;
-  String app_version;
-  String net_type;
-  String ip;
-  String interest;
-  MobileInfoEntity();
+  late String os;
+  late String os_version;
+  late String app_version;
+  late String net_type;
+  late String ip;
+  late String interest;
 
-  MobileInfoEntity.fromJson(Map<String, dynamic> json) {
+  void fromJson(Map<String, dynamic> json) {
     if (json['system'] != null) {
       this.os = json['system'].toString();
     }

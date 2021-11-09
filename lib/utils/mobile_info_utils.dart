@@ -4,6 +4,7 @@ import 'dart:io';
 
 import 'package:connectivity/connectivity.dart';
 import 'package:device_info/device_info.dart';
+import 'package:egg_manager/core/base_provider.dart';
 import 'package:launch/model/mobile_info_entity.dart';
 import 'package:package_info/package_info.dart';
 import 'package:r_get_ip/r_get_ip.dart';
@@ -12,7 +13,7 @@ import 'package:egg_manager/core/service_manager.dart';
 class MobleInfoUtils {
   /// Returns [value] plus 1.
   int addOne(int value) => value + 1;
-  MobileInfoEntity _entity;
+  late MobileInfoEntity _entity;
   Future<dynamic> getMobileInfoEntity()async{
     _entity = MobileInfoEntity();
     DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
@@ -37,11 +38,11 @@ class MobleInfoUtils {
       // I am connected to a wifi network.
       _entity.net_type = "wifi";
     }
-    _entity.ip = await RGetIp.internalIP;
+    _entity.ip = (await RGetIp.internalIP)!;
     return _entity;
   }
 
-  void updateMobileInfo(Function success,Function err)async{
+  void updateMobileInfo(ResponseInterceptor success,ResponseInterceptor err)async{
     MobileInfoEntity infoEntity = await getMobileInfoEntity();
     ServiceManager().provider.getData<String>("T0296AG9SDT/B029GJCFPKQ/YPh9xGTQ9YOa7RBkXuJlh3JD", infoEntity,success: success,fail: err);
   }
