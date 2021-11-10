@@ -98,18 +98,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "ffi",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/ffi-1.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "file",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/file-6.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "firebase",
       "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/firebase-9.0.2",
       "packageUri": "lib/",
@@ -189,15 +177,15 @@
     },
     {
       "name": "get",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/get-4.3.8",
+      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/get-3.26.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.9"
     },
     {
       "name": "get_storage",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/get_storage-2.0.3",
+      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/get_storage-1.1.6",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.7"
     },
     {
       "name": "hive",
@@ -249,33 +237,9 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.0.4",
+      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/path_provider-1.6.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_linux",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_macos",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/path_provider_macos-2.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_platform_interface",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/path_provider_platform_interface-2.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_windows",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.0"
     },
     {
       "name": "pedantic",
@@ -285,19 +249,13 @@
     },
     {
       "name": "platform",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/platform-3.0.2",
+      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/platform-2.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "1.24"
     },
     {
       "name": "plugin_platform_interface",
       "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-2.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "process",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/process-4.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -368,25 +326,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "win32",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/win32-2.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "xdg_directories",
-      "rootUri": "file:///Users/bj89102ml/.pub-cache/hosted/pub.flutter-io.cn/xdg_directories-0.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "launch",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-09T09:00:44.689084Z",
+  "generated": "2021-11-10T11:05:55.514196Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }
