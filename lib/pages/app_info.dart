@@ -7,7 +7,7 @@ import 'package:launch/controller/mobile_controller.dart';
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return BaseBuild<MobileController>(
+    return GetBuilder<MobileController>(
         id: "MyHomePage",
         init: MobileController(),
         builder: (controller) => Scaffold(
