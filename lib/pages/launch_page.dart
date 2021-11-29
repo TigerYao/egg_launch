@@ -8,7 +8,10 @@ class Launcher extends StatelessWidget{
       body: Center(
         child: ElevatedButton(onPressed: (){
           jumpToPage("/mobileInfo");
-        }, child: Text("开启旅程")),
+        }, child: byService<ILaunch>().loginWidget(
+            loginWidget: Text("开启"),
+            logoutWidget:Text("登录")
+        )),
       ),
     );
   }

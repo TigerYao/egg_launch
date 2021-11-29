@@ -46,14 +46,8 @@ class MyHomePage extends StatelessWidget {
                             title: Text("${json.encode(controller.entity)}"),
                           ),
                           ElevatedButton(
-                              onPressed: () {
-                                controller.utils?.updateMobileInfo((data) {
-                                  print("..dd..${data.toString()}");
-                                }, (e) {
-                                  print("..err....${e.toString()}");
-                                });
-                              },
-                              child: Text("上传"))
+                              onPressed: controller.reportInfo,
+                              child: controller.updateLoading ? Center(child: CircularProgressIndicator(),) : Text("上传"))
                         ],
                       ),
               ),
