@@ -102,9 +102,11 @@ packages:
   egg_manager:
     dependency: "direct main"
     description:
-      path: "../egg_manager"
-      relative: true
-    source: path
+      path: "."
+      ref: "0.0.0.5"
+      resolved-ref: "2c08c9e509916854f074f3883651515e8455ec2b"
+      url: "https://github.com/TigerYao/egg_manager.git"
+    source: git
     version: "0.0.1"
   fake_async:
     dependency: transitive

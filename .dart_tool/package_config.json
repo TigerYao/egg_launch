@@ -87,7 +87,7 @@
     },
     {
       "name": "egg_manager",
-      "rootUri": "../../egg_manager",
+      "rootUri": "file:///Users/bj89102ml/Documents/flutter/.pub-cache/git/egg_manager-2c08c9e509916854f074f3883651515e8455ec2b/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -392,7 +392,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-26T08:39:50.446661Z",
+  "generated": "2021-11-29T03:17:20.378451Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }

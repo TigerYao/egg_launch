@@ -103,7 +103,7 @@
         <entry key="egg_manager">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../egg_manager/lib" />
+              <option value="$USER_HOME$/Documents/flutter/.pub-cache/git/egg_manager-2c08c9e509916854f074f3883651515e8455ec2b/lib" />
             </list>
           </value>
         </entry>
@@ -453,6 +453,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/Documents/flutter/.pub-cache/git/egg_manager-2c08c9e509916854f074f3883651515e8455ec2b/lib" />
       <root url="file://$USER_HOME$/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/async-2.8.1/lib" />
       <root url="file://$USER_HOME$/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/boolean_selector-2.1.0/lib" />
       <root url="file://$USER_HOME$/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/characters-1.1.0/lib" />
@@ -516,7 +517,6 @@
       <root url="file://$USER_HOME$/Documents/flutter/packages/flutter/lib" />
       <root url="file://$USER_HOME$/Documents/flutter/packages/flutter_test/lib" />
       <root url="file://$USER_HOME$/Documents/flutter/packages/flutter_web_plugins/lib" />
-      <root url="file://$PROJECT_DIR$/../egg_manager/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

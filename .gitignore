@@ -74,3 +74,9 @@ build/
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 .flutter-plugins-dependencies
+.dart_tool/package_config_subset
+.dart_tool/package_config.json
+.dart_tool/package_config_subset
+.flutter-plugins-dependencies
+.idea/libraries/Dart_Packages.xml
+.packages
